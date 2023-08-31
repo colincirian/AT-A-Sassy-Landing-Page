@@ -12,6 +12,16 @@
     background-color: $color;
     color: text-color-picker($color)
   }
+
+  @mixin set-size {
+    font-size: 40px;
+    display: relative;
+    color: $white-color;
+  }
+
+  h1 {
+    @include set-size;
+  }
   
   // Standard CSS
   .box {
