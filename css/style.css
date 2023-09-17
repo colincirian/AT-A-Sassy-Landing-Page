@@ -1,19 +1,101 @@
-/* Error: Undefined variable.
- *    ,
- * 19 |     color: $white-color;
- *    |            ^^^^^^^^^^^^
- *    '
- *   scss\_utilities.scss 19:12  set-size()
- *   scss\_utilities.scss 23:5   @use
- *   scss\style.scss 1:1         root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 19 \2502      color: $white-color;\d\a    \2502             ^^^^^^^^^^^^\a    \2575 \a   scss\\_utilities.scss 19:12  set-size()\a   scss\\_utilities.scss 23:5   @use\a   scss\\style.scss 1:1         root stylesheet";
+body {
+  background-color: #FFC300;
+  font-family: Trebuchet MS, Arial, sans-serif;
+  line-height: 1;
 }
+
+img {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.8);
+}
+
+.btn-primary {
+  background-color: #001c47;
+  color: white;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 12px 30px;
+  margin: 5px;
+}
+
+.btn-secondary {
+  background-color: #a2d0fc;
+  color: black;
+}
+
+.banner {
+  margin: 15px;
+}
+
+.hero nav {
+  color: white;
+  display: flex;
+}
+
+.hero nav h1 {
+  display: inline-block;
+}
+
+.second-h1 {
+  font-size: 60px;
+}
+
+.hero nav ul {
+  display: flex;
+}
+
+.hero nav li {
+  display: inline-block;
+  flex-grow: 1;
+  margin: 20px;
+}
+
+.hero nav li a {
+  color: white;
+}
+
+.hero {
+  background-color: #000814;
+  color: white;
+  height: 90vh;
+}
+
+.hero .hero-content {
+  display: flex;
+  align-items: center;
+}
+
+.hero .hero-content img {
+  max-width: 50%;
+}
+
+.p1 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
